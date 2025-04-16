@@ -3,7 +3,7 @@ This project aims to predict the traffic pattern and the probability of bursty t
 
 Two types of ML models are used in this project for traffic prediction:
 
-1. ** RNN-based models (LSTM and GRU): ** Both the traditional Rolling algorithm and the proposed FLSP algorithm are applied to these models. The flowchart below shows the simulation steps for this category:
+1. **RNN-based models (LSTM and GRU):** Both the traditional Rolling algorithm and the proposed FLSP algorithm are applied to these models. The flowchart below shows the simulation steps for this category:
 ```
 --------------------------      ---------------      ------------------------------------
 |GeneratingTrafficPatterns| --> |RnnNetTraining| --> |GeneratingBurstDetNetFeedDataForRNN| -->
@@ -16,7 +16,7 @@ Two types of ML models are used in this project for traffic prediction:
     ------------------------------------------
 ```
    
-2. ** CNN-1D-based model: ** Only the traditional Rolling algorithm is applied to this model, and it is used for comparison. The flowchart below shows the simulation steps for this category:
+2. **CNN-1D-based model:** Only the traditional Rolling algorithm is applied to this model, and it is used for comparison. The flowchart below shows the simulation steps for this category:
 ```
 --------------------------      ------------------      ----------------------------------
 |GeneratingTrafficPatterns| --> |CNN-1DNetTraining| --> |BurstDetNetTrainingWithCNN-1DData| -->
@@ -27,7 +27,7 @@ Two types of ML models are used in this project for traffic prediction:
 ```
 
 ## Citation:
-** If you find this code useful in your research, please consider citing our paper: **
+**If you find this code useful in your research, please consider citing our paper:** 
 H. Mehri, H. Mehrpouyan, and H. Chen, "RACH Traffic Prediction in Massive Machine Type Communications," IEEE Transactions on Machine Learning in Communications and Networking, vol. 3, pp. 315–331, 2025.
 [IEEE Xplore Link](https://ieeexplore.ieee.org/document/10891603) | DOI: <ins> 10.1109/TMLCN.2025.3542760 </ins>
 ```
