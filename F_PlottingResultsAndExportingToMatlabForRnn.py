@@ -33,6 +33,26 @@ You can modify the following parameters:
     - saveResults: If you want a copy of results for plotting in MATLAB;
     - focusArea: Limiting the simulations for faster results;
     - limitPlotRange: A limitation on plottign range to get a clear plots.
+
+Citation:
+If you find this code useful in your research, please consider citing our paper:
+
+H. Mehri, H. Mehrpouyan, and H. Chen, "RACH Traffic Prediction in Massive Machine Type Communications," IEEE Transactions on Machine Learning in Communications and Networking, vol. 3, pp. 315–331, 2025.
+
+[IEEE Xplore Link](https://ieeexplore.ieee.org/document/10891603) | DOI: 10.1109/TMLCN.2025.3542760
+
+```
+@ARTICLE{10891603,
+  author={Mehri, Hossein and Mehrpouyan, Hani and Chen, Hao},
+  journal={IEEE Transactions on Machine Learning in Communications and Networking}, 
+  title={RACH Traffic Prediction in Massive Machine Type Communications}, 
+  year={2025},
+  volume={3},
+  number={},
+  pages={315-331},
+  keywords={Prediction algorithms;Long short term memory;Machine learning;Accuracy;3GPP;Predictive models;Complexity theory;Base stations;Traffic control;Telecommunication traffic;Massive machine-type communications;internet of things;machine learning;traffic prediction;smart cities},
+  doi={10.1109/TMLCN.2025.3542760}}
+```
     
 """
 
