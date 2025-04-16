@@ -28,8 +28,11 @@ Two types of ML models are used in this project for traffic prediction:
 
 ## Citation:
 **If you find this code useful in your research, please consider citing our paper:** 
+
 H. Mehri, H. Mehrpouyan, and H. Chen, "RACH Traffic Prediction in Massive Machine Type Communications," IEEE Transactions on Machine Learning in Communications and Networking, vol. 3, pp. 315–331, 2025.
+
 [IEEE Xplore Link](https://ieeexplore.ieee.org/document/10891603) | DOI: <ins> 10.1109/TMLCN.2025.3542760 </ins>
+
 ```
 @ARTICLE{10891603,
   author={Mehri, Hossein and Mehrpouyan, Hani and Chen, Hao},
