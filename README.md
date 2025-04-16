@@ -1,5 +1,5 @@
 # mMTC-Traffic-Prediction
-This project aims to predict the traffic pattern and the probability of bursty traffic in mMTC networks using machine learning (ML) models. A new ML algorithm, FLSP (Fast Live Stream Prediction), is proposed for traffic prediction in live scenarios where fresh data is continuously collected from a live network and efficiently leveraged by ML models to make continuous and accurate predictions.
+This project aims to predict the traffic pattern and the probability of bursty traffic in mMTC networks using machine learning (ML) models. A new ML algorithm, FLSP (Fast Live Stream Prediction), is proposed for traffic prediction in live scenarios where fresh data is continuously collected from a live network and efficiently leveraged by ML models to make continuous and accurate predictions. This algorithm can be applied to any time-series prediction problem where new batches of sampled data are collected and need to be integrated into ongoing predictions. It is also robust to missing data points, a common issue in practical applications.
 
 Two types of ML models are used in this project for traffic prediction:
 
