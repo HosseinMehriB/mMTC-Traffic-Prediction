@@ -20,7 +20,7 @@ Two types of ML models are used in this project for traffic prediction:
 ```
 --------------------------      ------------------      ----------------------------------
 |GeneratingTrafficPatterns| --> |CNN-1DNetTraining| --> |BurstDetNetTrainingWithCNN-1DData| -->
---------------------------      ^^^^^^^^^^^^^^^^^^      ----------------------------------
+--------------------------      ------------------      ----------------------------------
      --------------------------------------
 --> |EvaluationAndPlottingResultsForCNN-1D|
     --------------------------------------
